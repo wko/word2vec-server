@@ -9,6 +9,7 @@ import argparse
 from gensim.models import KeyedVectors
 import logging
 import json
+import time
 
 app = Flask(__name__)
 api = Api(app)
